@@ -92,3 +92,21 @@ button{
     position:relative;
 }
 
+.container-img{
+    border:solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 146vh;
+    width:90%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+
+
+.main-img{
+    width:290px;
+    height:290px;
+}
