@@ -296,6 +296,12 @@ footer{
     .container-img img{
         width: 80%;
         height: 80%;
+        margin-top:40px;
+    }
+
+    .container-img img:hover{
+        transition: none;
+        transform: scale(1);
     }
     
     .main-img1{order:10;}
@@ -310,6 +316,62 @@ footer{
     .main-img10{order:12;}
     .main-img11{order:2;}
     .main-img12{order:5;}
+
+    footer{
+        border: solid grey;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 1920px;
+    
+    }
+    
+    .logos{
+        border:solid blue;
+        width: 80%;
+        align-self: center;
+        margin-bottom: 0px;
+        width: 100%;
+        
+    }
+    
+    .logos-img{
+        border: solid pink;
+        margin-right: 3.5%;
+    
+    }
+    
+    .copyright{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:100%;
+        height: 100%;
+        border: solid green;
+    }
+    
+    .copyrightParagraph{
+        border: solid red;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        height:auto;
+        font-weight: 600;
+    
+    }
+    
+    .copyrightParagraphTwo{
+        border: solid;
+        width: 20%;
+        font-size: 0.9rem;
+        font-weight: 300;
+        display:inline-block;
+        word-wrap: break-word;
+        height: 100%;
+        align-items: flex-start;
+        margin-left: 0px;
+    }
 }
 
 
