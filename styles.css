@@ -96,7 +96,7 @@ h1{
 .btMain{
     background-color: transparent;
     font-size: 1.5rem;
-    width:50%;
+    width:25%;
     text-align: left;
     border:none;
     height: 20%;
@@ -383,6 +383,11 @@ footer{
         background-color:gray ;
         text-align:center;
         margin-right: 11px;
+    }
+    @media(max-width:478px){
+        .logos-img{
+            margin-left:2% ;
+        }
     }
 }
 
